@@ -1,0 +1,7 @@
+export const enum SOURCES {
+  IN_HOSPITAL = 'IN_HOSPITAL',
+  TELEMEDICINE = 'TELEMEDICINE',
+  MOBILE_VET = 'MOBILE_VET',
+  PET_SERVICES = 'PET_SERVICES',
+}
+export type SOURCES_TYPES = keyof typeof SOURCES;

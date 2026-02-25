@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+dist
+build
+.vscode
+.idea
+.DS_Store
+*.log
+.turbo
+.cursor
+prompts
+# .env.*
+*.local
+# .cursor
+*.tsbuildinfo
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo

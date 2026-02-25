@@ -1,0 +1,112 @@
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+/* hide arrows for input type number */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pacifico {
+  font-family: var(--font-pacifico);
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.SHADOW {
+  box-shadow: 6px 12px 24px 0px #00000014;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Range Slider Styles */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 20px;
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  cursor: grab;
+  box-shadow: 0px 2px 12px 0px #00000029;
+  margin-top: -8px;
+}
+
+input[type='range']::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  box-shadow: 0px 2px 12px 0px #00000029;
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  cursor: grab;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: 0px 2px 12px 0px #00000029;
+  margin-top: -8px;
+}
+
+input[type='range']::-moz-range-thumb:active {
+  cursor: grabbing;
+  box-shadow: 0px 2px 12px 0px #00000029;
+}
+
+input[type='range']::-moz-range-track {
+  height: 8px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 20px;
+}
+
+.white-filter {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(0%) hue-rotate(195deg)
+    brightness(104%) contrast(103%);
+}
+
+.black-filter {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(1%) saturate(6814%) hue-rotate(169deg)
+    brightness(111%) contrast(118%);
+}
+
+/* Hide scrollbar for scrollable sections */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
