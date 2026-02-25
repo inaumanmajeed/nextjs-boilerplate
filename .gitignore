@@ -3,7 +3,6 @@ node_modules
 out
 dist
 build
-.vscode
 .idea
 .DS_Store
 *.log
@@ -19,3 +18,4 @@ prompts
 *.bak
 *.swp
 *.swo
+config.bat
